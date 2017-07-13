@@ -2,13 +2,13 @@
 session_start();
 // error_reporting(1);
 // error_reporting(E_ALL ^ (E_NOTICE | E_WARNING));
-$doc_root = $_SERVER['HTTP_HOST'].'/sales/';
-$doc_root_class = $_SERVER['HTTP_HOST'].'/sales/class/';
-$doc_root_js = $_SERVER['HTTP_HOST'].'/sales/asset/js/';
-$doc_root_css = $_SERVER['HTTP_HOST'].'/sales/asset/css/';
-$doc_root_pics = $_SERVER['HTTP_HOST'].'/sales/asset/pics/';
-$doc_root_spry = $_SERVER['HTTP_HOST'].'/sales/asset/SpryAssets/';
-$doc_root_validation_engine = $_SERVER['HTTP_HOST'].'/sales/asset/validation_engine/';
+$doc_root = $_SERVER['DOCUMENT_ROOT'].'/sales/';
+$doc_root_class = $_SERVER['DOCUMENT_ROOT'].'/sales/class/';
+$doc_root_js = $_SERVER['DOCUMENT_ROOT'].'/sales/asset/js/';
+$doc_root_css = $_SERVER['DOCUMENT_ROOT'].'/sales/asset/css/';
+$doc_root_pics = $_SERVER['DOCUMENT_ROOT'].'/sales/asset/pics/';
+$doc_root_spry = $_SERVER['DOCUMENT_ROOT'].'/sales/asset/SpryAssets/';
+$doc_root_validation_engine = $_SERVER['DOCUMENT_ROOT'].'/sales/asset/validation_engine/';
 
 $addr_root = 'http://'.$_SERVER['HTTP_HOST'].'/sales/';
 $addr_root_class = 'http://'.$_SERVER['HTTP_HOST'].'/sales/class/';

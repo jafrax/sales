@@ -1,9 +1,9 @@
 <?php 
      session_start();
-    $doc_root = $_SERVER['DOCUMENT_ROOT'].'/cps/';
-    $addr_root_pics = 'http://'.$_SERVER['HTTP_HOST'].'/cps/asset/pics/';
-    $addr_root_js = 'http://'.$_SERVER['HTTP_HOST'].'/cps/asset/js/';
-    $addr_root_css = 'http://'.$_SERVER['HTTP_HOST'].'/cps/asset/css/';
+    $doc_root = $_SERVER['DOCUMENT_ROOT'].'/sales/';
+    $addr_root_pics = 'http://'.$_SERVER['HTTP_HOST'].'/sales/asset/pics/';
+    $addr_root_js = 'http://'.$_SERVER['HTTP_HOST'].'/sales/asset/js/';
+    $addr_root_css = 'http://'.$_SERVER['HTTP_HOST'].'/sales/asset/css/';
 ?>    
 <!DOCTYPE html>
 <html lang="en">

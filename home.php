@@ -1,18 +1,21 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-  <?php include 'script_awal.php'; ?>
-  <?php include $doc_root.'bs_meta.php';?>   
-  <?php include $doc_root.'bs_css.php';?>
+   <head>
+  <?php 
+  include 'script_awal.php';
+  include $doc_root.'bs_meta.php';   
+  include $doc_root.'bs_css.php';
+
+  ?>
   <link href="asset/css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="asset/css/menu_nav.css" rel="stylesheet" type="text/css">
   </head>
-
-  <body>
+ <body>
     <?php include $doc_root.'header.php';?>
     <?php include $doc_root.'menu_top.php';?>  
      <div class="container-fluid">
+
           
          <!-- START PAGINATION & PESAN NOTIFIKASI -->
          <div class="row-fluid">

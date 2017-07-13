@@ -6,15 +6,11 @@ $mssql = new pdo_dblib_mssql();
 $username = $_POST['username'];
 $password = $_POST['password'];
 $sql_login="SELECT userid,password FROM dbo.ms_user
-            WHERE userid='$username' AND password='$password' and ak_gudang = 1 ";
+            WHERE userid='$username' AND password='$password' and ( ak_sales = 1 or ak_spv = 1 ) ";
 
 $result = $mssql->db->prepare($sql_login); 
 $result->execute(); 
 $number_of_rows = $result->fetchColumn();
-
-var_dump($sql_login);
-var_dump($result);
-var_dump($number_of_rows);
 
 if($number_of_rows){
        
